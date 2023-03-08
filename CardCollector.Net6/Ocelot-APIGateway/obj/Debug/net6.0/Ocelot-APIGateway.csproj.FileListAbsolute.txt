@@ -1,0 +1,7 @@
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\Ocelot-APIGateway\obj\Debug\net6.0\Ocelot-APIGateway.csproj.AssemblyReference.cache
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\Ocelot-APIGateway\obj\Debug\net6.0\Ocelot-APIGateway.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\Ocelot-APIGateway\obj\Debug\net6.0\Ocelot-APIGateway.AssemblyInfoInputs.cache
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\Ocelot-APIGateway\obj\Debug\net6.0\Ocelot-APIGateway.AssemblyInfo.cs
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\Ocelot-APIGateway\obj\Debug\net6.0\Ocelot-APIGateway.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\Ocelot-APIGateway\obj\Debug\net6.0\Ocelot-APIGateway.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\Ocelot-APIGateway\obj\Debug\net6.0\Ocelot-APIGateway.MvcApplicationPartsAssemblyInfo.cache

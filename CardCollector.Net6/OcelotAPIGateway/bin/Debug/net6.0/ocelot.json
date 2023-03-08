@@ -1,0 +1,64 @@
+{
+  "Routes": [
+    {
+      "DownstreamPathTemplate": "/api/Collection",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7159
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Collection",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+    {
+      "DownstreamPathTemplate": "/api/Deckbuilder",
+      "DownstreamScheme": "https",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 7084
+        }
+      ],
+      "UpstreamPathTemplate": "/api/Deckbuilder",
+      "UpstreamHttpMethod": [ "Get" ]
+    },
+
+    {
+      
+        "DownstreamPathTemplate": "/api/Merge",
+        "DownstreamScheme": "https",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 7266
+          }
+        ],
+        "UpstreamPathTemplate": "/api/Merge",
+        "UpstreamHttpMethod": [ "Get" ]
+      
+    },
+
+    {
+      
+        "DownstreamPathTemplate": "/api/Shop",
+        "DownstreamScheme": "https",
+        "DownstreamHostAndPorts": [
+          {
+            "Host": "localhost",
+            "Port": 7009
+          }
+        ],
+        "UpstreamPathTemplate": "/api/Shop",
+        "UpstreamHttpMethod": [ "Get" ]
+      
+    }
+  ],
+
+
+  "GlobalConfiguration": {
+  "BaseUrl": "https://localhost:5000/"
+  }
+}
