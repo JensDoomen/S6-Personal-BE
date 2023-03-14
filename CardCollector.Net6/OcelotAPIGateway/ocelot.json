@@ -1,57 +1,57 @@
 {
   "Routes": [
     {
-      "DownstreamPathTemplate": "/api/Collection",
-      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/WeatherForecast",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7159
+          "Port": 31187
         }
       ],
-      "UpstreamPathTemplate": "/api/Collection",
+      "UpstreamPathTemplate": "/Collection/WeatherForecast",
       "UpstreamHttpMethod": [ "Get" ]
     },
 
     {
-      "DownstreamPathTemplate": "/api/Deckbuilder",
-      "DownstreamScheme": "https",
+      "DownstreamPathTemplate": "/WeatherForecast",
+      "DownstreamScheme": "http",
       "DownstreamHostAndPorts": [
         {
           "Host": "localhost",
-          "Port": 7084
+          "Port": 64236
         }
       ],
-      "UpstreamPathTemplate": "/api/Deckbuilder",
+      "UpstreamPathTemplate": "/Deckbuilder/WeatherForecast",
       "UpstreamHttpMethod": [ "Get" ]
     },
 
     {
-      
-        "DownstreamPathTemplate": "/api/Merge",
-        "DownstreamScheme": "https",
-        "DownstreamHostAndPorts": [
-          {
-            "Host": "localhost",
-            "Port": 7266
-          }
-        ],
-        "UpstreamPathTemplate": "/api/Merge",
-        "UpstreamHttpMethod": [ "Get" ]
-      
+
+      "DownstreamPathTemplate": "/WeatherForecast",
+      "DownstreamScheme": "http",
+      "DownstreamHostAndPorts": [
+        {
+          "Host": "localhost",
+          "Port": 17713
+        }
+      ],
+      "UpstreamPathTemplate": "/Merge/WeatherForecast",
+      "UpstreamHttpMethod": [ "Get" ]
+
     },
 
     {
       
-        "DownstreamPathTemplate": "/api/Shop",
-        "DownstreamScheme": "https",
+        "DownstreamPathTemplate": "/WeatherForecast",
+        "DownstreamScheme": "http",
         "DownstreamHostAndPorts": [
           {
             "Host": "localhost",
-            "Port": 7009
+            "Port": 42800
           }
         ],
-        "UpstreamPathTemplate": "/api/Shop",
+        "UpstreamPathTemplate": "/Shop/WeatherForecast",
         "UpstreamHttpMethod": [ "Get" ]
       
     }
@@ -59,6 +59,6 @@
 
 
   "GlobalConfiguration": {
-  "BaseUrl": "https://localhost:5002/"
+  "BaseUrl": ""
   }
 }
