@@ -43,7 +43,7 @@ jobs:
         with:
           file: ./Authentication/Dockerfile
           push: true
-          tags: jensdoomen/nietdiscord:latest
+          tags: jensdoomen/S6-Personal:latest
 
       
       
