@@ -1,4 +1,4 @@
-name: Authentication CI
+name: Back-end CI
 on: [push]
 
 jobs:
