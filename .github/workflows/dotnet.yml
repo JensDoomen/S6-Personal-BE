@@ -7,7 +7,7 @@ jobs:
     defaults:
       run:
         working-directory: 'CardCollector.Net6/CardCollector.Net6'
-    name: .NET 6 Application
+    name: Collection-build
     steps:
       - uses: actions/checkout@v2
       - name: Setup dotnet
@@ -16,6 +16,52 @@ jobs:
           dotnet-version: '6.0' # Check for latest at link at .NET 5 download page
       - run: dotnet build
       - run: dotnet test
+      
+  Deckbuilder-build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: 'CardCollector.Net6/CardCollector.Net6'
+    name: Deckbuilder-build
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup dotnet
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '6.0' # Check for latest at link at .NET 5 download page
+      - run: dotnet build
+      - run: dotnet test
+  
+  Merge-build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: 'CardCollector.Net6/CardCollector.Net6'
+    name: Merge-build
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup dotnet
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '6.0' # Check for latest at link at .NET 5 download page
+      - run: dotnet build
+      - run: dotnet test
+      
+  Shop-build:
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: 'CardCollector.Net6/CardCollector.Net6'
+    name: Shop-build
+    steps:
+      - uses: actions/checkout@v2
+      - name: Setup dotnet
+        uses: actions/setup-dotnet@v1
+        with:
+          dotnet-version: '6.0' # Check for latest at link at .NET 5 download page
+      - run: dotnet build
+      - run: dotnet test
+  
 
 
 #   docker:
