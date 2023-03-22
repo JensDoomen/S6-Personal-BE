@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Gebruiker\\Documents\\FHICT\\Semester 6\\Personal\\S6-Personal-BE\\CardCollector.Net6\\ShopTest\\ShopTest.csproj": {}
+    "C:\\Users\\Gebruiker\\Documents\\FHICT\\Semester 6\\Personal\\S6-Personal-BE\\CardCollector.Net6\\OcelotAPIGateway\\OcelotAPIGateway.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Gebruiker\\Documents\\FHICT\\Semester 6\\Personal\\S6-Personal-BE\\CardCollector.Net6\\ShopTest\\ShopTest.csproj": {
+    "C:\\Users\\Gebruiker\\Documents\\FHICT\\Semester 6\\Personal\\S6-Personal-BE\\CardCollector.Net6\\OcelotAPIGateway\\OcelotAPIGateway.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Gebruiker\\Documents\\FHICT\\Semester 6\\Personal\\S6-Personal-BE\\CardCollector.Net6\\ShopTest\\ShopTest.csproj",
-        "projectName": "ShopTest",
-        "projectPath": "C:\\Users\\Gebruiker\\Documents\\FHICT\\Semester 6\\Personal\\S6-Personal-BE\\CardCollector.Net6\\ShopTest\\ShopTest.csproj",
+        "projectUniqueName": "C:\\Users\\Gebruiker\\Documents\\FHICT\\Semester 6\\Personal\\S6-Personal-BE\\CardCollector.Net6\\OcelotAPIGateway\\OcelotAPIGateway.csproj",
+        "projectName": "Shop",
+        "projectPath": "C:\\Users\\Gebruiker\\Documents\\FHICT\\Semester 6\\Personal\\S6-Personal-BE\\CardCollector.Net6\\OcelotAPIGateway\\OcelotAPIGateway.csproj",
         "packagesPath": "C:\\Users\\Gebruiker\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Gebruiker\\Documents\\FHICT\\Semester 6\\Personal\\S6-Personal-BE\\CardCollector.Net6\\ShopTest\\obj\\",
+        "outputPath": "C:\\Users\\Gebruiker\\Documents\\FHICT\\Semester 6\\Personal\\S6-Personal-BE\\CardCollector.Net6\\Shop\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -45,25 +45,13 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "Microsoft.NET.Test.Sdk": {
+            "Ocelot": {
               "target": "Package",
-              "version": "[17.3.2, )"
+              "version": "[18.0.0, )"
             },
-            "coverlet.collector": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
+            "Swashbuckle.AspNetCore": {
               "target": "Package",
-              "version": "[3.1.2, )"
-            },
-            "xunit": {
-              "target": "Package",
-              "version": "[2.4.2, )"
-            },
-            "xunit.runner.visualstudio": {
-              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
-              "suppressParent": "All",
-              "target": "Package",
-              "version": "[2.4.5, )"
+              "version": "[6.2.3, )"
             }
           },
           "imports": [
@@ -78,6 +66,9 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
