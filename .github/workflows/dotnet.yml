@@ -94,7 +94,7 @@ jobs:
       
       
   Sonarcloud:
-    name: Build
+    name: Sonarcloud
     runs-on: windows-latest
     steps:
       - name: Set up JDK 11
