@@ -1,4 +1,4 @@
-namespace MergeTest
+namespace CollectionTest
 {
     public class UnitTest1
     {
