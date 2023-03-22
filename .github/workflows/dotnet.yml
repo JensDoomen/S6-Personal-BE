@@ -2,11 +2,11 @@ name: Back-end CI
 on: [push]
 
 jobs:
-  build:
+  Collection-build:
     runs-on: ubuntu-latest
     defaults:
       run:
-        working-directory: 'CardCollector.Net6'
+        working-directory: 'CardCollector.Net6/CardCollector.Net6'
     name: .NET 6 Application
     steps:
       - uses: actions/checkout@v2
