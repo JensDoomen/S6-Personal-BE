@@ -67,7 +67,7 @@ jobs:
      runs-on: ubuntu-latest
      defaults:
        run:
-         working-directory: './CardCollector.Net6/CardCollector.Net6'
+         working-directory: 'CardCollector.Net6'
      steps:
        -
          name: Set up QEMU
@@ -86,7 +86,7 @@ jobs:
          id: docker_build
          uses: docker/build-push-action@v2
          with:
-           file: .//Dockerfile
+           file: ./CardCollecgtor.Net6/CardCollector.Net6/Dockerfile
            push: true
            tags: jensdoomen/s6_collection:latest
            
