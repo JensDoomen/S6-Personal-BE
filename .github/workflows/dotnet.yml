@@ -63,7 +63,7 @@ jobs:
       - run: dotnet test
   
 
-  docker:
+  docker-collection:
      runs-on: ubuntu-latest
      defaults:
        run:
@@ -88,8 +88,115 @@ jobs:
          with:
            file: .//Dockerfile
            push: true
-           tags: jensdoomen/s6_be:latest
+           tags: jensdoomen/s6_collection:latest
+           
+  docker-deckbuilder:
+     runs-on: ubuntu-latest
+     defaults:
+       run:
+         working-directory: 'Deckbuilder'
+     steps:
+       -
+         name: Set up QEMU
+         uses: docker/setup-qemu-action@v1
+       -
+         name: Set up Docker Buildx
+         uses: docker/setup-buildx-action@v1
+       -
+         name: Login to DockerHub
+         uses: docker/login-action@v1 
+         with:
+           username: ${{ secrets.DOCKER_USERNAME }}
+           password: ${{ secrets.DOCKER_PASSWORD }}
+       -
+         name: Build and push
+         id: docker_build
+         uses: docker/build-push-action@v2
+         with:
+           file: .//Dockerfile
+           push: true
+           tags: jensdoomen/s6_deckbuilder:latest
 
+  docker-merge:
+     runs-on: ubuntu-latest
+     defaults:
+       run:
+         working-directory: 'Merge'
+     steps:
+       -
+         name: Set up QEMU
+         uses: docker/setup-qemu-action@v1
+       -
+         name: Set up Docker Buildx
+         uses: docker/setup-buildx-action@v1
+       -
+         name: Login to DockerHub
+         uses: docker/login-action@v1 
+         with:
+           username: ${{ secrets.DOCKER_USERNAME }}
+           password: ${{ secrets.DOCKER_PASSWORD }}
+       -
+         name: Build and push
+         id: docker_build
+         uses: docker/build-push-action@v2
+         with:
+           file: .//Dockerfile
+           push: true
+           tags: jensdoomen/s6_merge:latest
+       
+  docker-Shop:
+     runs-on: ubuntu-latest
+     defaults:
+       run:
+         working-directory: 'Shop'
+     steps:
+       -
+         name: Set up QEMU
+         uses: docker/setup-qemu-action@v1
+       -
+         name: Set up Docker Buildx
+         uses: docker/setup-buildx-action@v1
+       -
+         name: Login to DockerHub
+         uses: docker/login-action@v1 
+         with:
+           username: ${{ secrets.DOCKER_USERNAME }}
+           password: ${{ secrets.DOCKER_PASSWORD }}
+       -
+         name: Build and push
+         id: docker_build
+         uses: docker/build-push-action@v2
+         with:
+           file: .//Dockerfile
+           push: true
+           tags: jensdoomen/s6_shop:latest
+
+  docker-Gateway:
+     runs-on: ubuntu-latest
+     defaults:
+       run:
+         working-directory: 'OcelotAPIGateway'
+     steps:
+       -
+         name: Set up QEMU
+         uses: docker/setup-qemu-action@v1
+       -
+         name: Set up Docker Buildx
+         uses: docker/setup-buildx-action@v1
+       -
+         name: Login to DockerHub
+         uses: docker/login-action@v1 
+         with:
+           username: ${{ secrets.DOCKER_USERNAME }}
+           password: ${{ secrets.DOCKER_PASSWORD }}
+       -
+         name: Build and push
+         id: docker_build
+         uses: docker/build-push-action@v2
+         with:
+           file: .//Dockerfile
+           push: true
+           tags: jensdoomen/s6_be:latest
       
       
   Sonarcloud:
