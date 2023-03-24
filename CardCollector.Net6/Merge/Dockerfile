@@ -7,7 +7,7 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["Merge/Merge.csproj", "Merge/"]
+COPY ["Merge.csproj", "Merge/"]
 RUN dotnet restore "Merge/Merge.csproj"
 COPY . .
 WORKDIR "/src/Merge"
