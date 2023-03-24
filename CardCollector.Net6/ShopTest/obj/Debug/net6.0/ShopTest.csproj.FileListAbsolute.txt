@@ -1,0 +1,17 @@
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\ShopTest\bin\Debug\net6.0\xunit.runner.visualstudio.dotnetcore.testadapter.dll
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\ShopTest\bin\Debug\net6.0\xunit.runner.reporters.netcoreapp10.dll
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\ShopTest\bin\Debug\net6.0\xunit.runner.utility.netcoreapp10.dll
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\ShopTest\bin\Debug\net6.0\ShopTest.deps.json
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\ShopTest\bin\Debug\net6.0\ShopTest.runtimeconfig.json
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\ShopTest\bin\Debug\net6.0\ShopTest.dll
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\ShopTest\bin\Debug\net6.0\ShopTest.pdb
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\ShopTest\obj\Debug\net6.0\ShopTest.csproj.AssemblyReference.cache
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\ShopTest\obj\Debug\net6.0\ShopTest.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\ShopTest\obj\Debug\net6.0\ShopTest.AssemblyInfoInputs.cache
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\ShopTest\obj\Debug\net6.0\ShopTest.AssemblyInfo.cs
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\ShopTest\obj\Debug\net6.0\ShopTest.csproj.CoreCompileInputs.cache
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\ShopTest\obj\Debug\net6.0\ShopTest.dll
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\ShopTest\obj\Debug\net6.0\refint\ShopTest.dll
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\ShopTest\obj\Debug\net6.0\ShopTest.pdb
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\ShopTest\obj\Debug\net6.0\ShopTest.genruntimeconfig.cache
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\ShopTest\obj\Debug\net6.0\ref\ShopTest.dll
