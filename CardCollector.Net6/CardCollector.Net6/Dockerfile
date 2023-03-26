@@ -7,7 +7,7 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["Collection.csproj", "CardCollector.Net6/"]
+COPY ["Collection.csproj"]
 RUN dotnet restore "Collection.csproj"
 COPY . .
 WORKDIR "/src/CardCollector.Net6"
