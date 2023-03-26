@@ -8,7 +8,7 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["Deckbuilder.csproj", "Deckbuilder/"]
-RUN dotnet restore "/CardCollector.Net6/Deckbuilder/Deckbuilder.csproj"
+RUN dotnet restore "Deckbuilder/Deckbuilder.csproj"
 COPY . .
 WORKDIR "/src/Deckbuilder"
 RUN dotnet build "Deckbuilder.csproj" -c Release -o /app/build
