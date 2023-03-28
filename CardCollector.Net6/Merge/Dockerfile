@@ -7,10 +7,10 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["Merge.csproj", "Merge/"]
-RUN dotnet restore "Merge/Merge.csproj"
+COPY ["CardCollector.Net6/Merge/Merge.csproj", "CardCollector.Net6/Merge/"]
+RUN dotnet restore "CardCollector.Net6/Merge/Merge.csproj"
 COPY . .
-WORKDIR "/src/Merge"
+WORKDIR "/src/CardCollector.Net6/Merge"
 RUN dotnet build "Merge.csproj" -c Release -o /app/build
 
 FROM build AS publish
