@@ -7,10 +7,10 @@ EXPOSE 443
 
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
-COPY ["CardCollector.Net6/Collection.csproj", "CardCollector.Net6/"]
-RUN dotnet restore "CardCollector.Net6/Collection.csproj"
+COPY ["CardCollector.Net6/CardCollector.Net6/Collection.csproj", "CardCollector.Net6/CardCollector.Net6/"]
+RUN dotnet restore "CardCollector.Net6/CardCollector.Net6/Collection.csproj"
 COPY . .
-WORKDIR "/src/CardCollector.Net6"
+WORKDIR "/src/CardCollector.Net6/CardCollector.Net6"
 RUN dotnet build "Collection.csproj" -c Release -o /app/build
 
 FROM build AS publish
