@@ -94,7 +94,7 @@ jobs:
      runs-on: ubuntu-latest
      defaults:
        run:
-         working-directory: 'CardCollector.Net6/Deckbuilder'
+         working-directory: 'Deckbuilder'
      steps:
        -
          name: Set up QEMU
