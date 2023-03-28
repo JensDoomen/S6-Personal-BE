@@ -8,7 +8,7 @@ EXPOSE 443
 FROM mcr.microsoft.com/dotnet/sdk:6.0 AS build
 WORKDIR /src
 COPY ["CardCollector.Net6/OcelotAPIGateway/OcelotAPIGateway.csproj", "CardCollector.Net6/OcelotAPIGateway/"]
-RUN dotnet restore "OcelotAPIGateway/OcelotAPIGateway/OcelotAPIGateway.csproj"
+RUN dotnet restore "CardCollector.Net6/OcelotAPIGateway/OcelotAPIGateway.csproj"
 COPY . .
 WORKDIR "/src/CardCollector.Net6/OcelotAPIGateway"
 RUN dotnet build "OcelotAPIGateway.csproj" -c Release -o /app/build
