@@ -113,7 +113,7 @@ jobs:
          id: docker_build
          uses: docker/build-push-action@v2
          with:
-           file: .//Dockerfile
+           file: ./CardCollector.Net6/Deckbuilder/Dockerfile
            push: true
            tags: jensdoomen/s6_deckbuilder:latest
 
@@ -140,7 +140,7 @@ jobs:
          id: docker_build
          uses: docker/build-push-action@v2
          with:
-           file: .//Dockerfile
+           file: ./CardCollector.Net6/Merge/Dockerfile
            push: true
            tags: jensdoomen/s6_merge:latest
        
@@ -167,7 +167,7 @@ jobs:
          id: docker_build
          uses: docker/build-push-action@v2
          with:
-           file: .//Dockerfile
+           file: ./CardCollector.Net6/Shop/Dockerfile
            push: true
            tags: jensdoomen/s6_shop:latest
 
@@ -194,7 +194,7 @@ jobs:
          id: docker_build
          uses: docker/build-push-action@v2
          with:
-           file: .//Dockerfile
+           file: ./CardCollector.Net6/OcelotAPIGateway/Dockerfile
            push: true
            tags: jensdoomen/s6_be:latest
       
