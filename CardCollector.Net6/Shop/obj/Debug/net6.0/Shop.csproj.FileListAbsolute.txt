@@ -30,3 +30,6 @@ C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollec
 C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\Shop\obj\Debug\net6.0\Shop.pdb
 C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\Shop\obj\Debug\net6.0\Shop.genruntimeconfig.cache
 C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\Shop\obj\Debug\net6.0\ref\Shop.dll
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\Shop\bin\Debug\net6.0\EasyNetQ.dll
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\Shop\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\Shop\bin\Debug\net6.0\System.Threading.Channels.dll

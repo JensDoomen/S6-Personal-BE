@@ -39,3 +39,7 @@ C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollec
 C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\OcelotAPIGateway\obj\Debug\net6.0\OcelotAPIGateway.genruntimeconfig.cache
 C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\OcelotAPIGateway\obj\Debug\net6.0\ref\OcelotAPIGateway.dll
 C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\OcelotAPIGateway\bin\Debug\net6.0\ocelot.json
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\OcelotAPIGateway\bin\Debug\net6.0\libman.json
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\OcelotAPIGateway\bin\Debug\net6.0\EasyNetQ.dll
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\OcelotAPIGateway\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\OcelotAPIGateway\bin\Debug\net6.0\System.Threading.Channels.dll

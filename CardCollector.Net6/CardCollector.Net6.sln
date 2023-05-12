@@ -13,13 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Merge", "Merge\Merge.csproj
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Shop", "Shop\Shop.csproj", "{32A060AD-6C24-4793-9F29-CAC866FA62DE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CollectionTest", "CollectionTest\CollectionTest.csproj", "{442D4455-0DD3-4EE5-999E-1E6043813F22}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CollectionTest", "CollectionTest\CollectionTest.csproj", "{442D4455-0DD3-4EE5-999E-1E6043813F22}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DeckbuilderTest", "DeckbuilderTest\DeckbuilderTest.csproj", "{B5E3B00F-E37B-49DC-9B6B-7A5E2A2B58EE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DeckbuilderTest", "DeckbuilderTest\DeckbuilderTest.csproj", "{B5E3B00F-E37B-49DC-9B6B-7A5E2A2B58EE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MergeTest", "MergeTest\MergeTest.csproj", "{35F7F82F-7466-4202-B1F3-3EAD08862797}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "MergeTest", "MergeTest\MergeTest.csproj", "{35F7F82F-7466-4202-B1F3-3EAD08862797}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ShopTest", "ShopTest\ShopTest.csproj", "{EF0EDA8F-8F5F-45B8-836E-12E1BC7E4F09}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ShopTest", "ShopTest\ShopTest.csproj", "{EF0EDA8F-8F5F-45B8-836E-12E1BC7E4F09}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "RabbitMQ", "RabbitMQ\RabbitMQ.csproj", "{DBC045C4-F378-48F4-BAA6-F7417D27CF45}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -63,6 +65,10 @@ Global
 		{EF0EDA8F-8F5F-45B8-836E-12E1BC7E4F09}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EF0EDA8F-8F5F-45B8-836E-12E1BC7E4F09}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EF0EDA8F-8F5F-45B8-836E-12E1BC7E4F09}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBC045C4-F378-48F4-BAA6-F7417D27CF45}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBC045C4-F378-48F4-BAA6-F7417D27CF45}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBC045C4-F378-48F4-BAA6-F7417D27CF45}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBC045C4-F378-48F4-BAA6-F7417D27CF45}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

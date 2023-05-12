@@ -85,3 +85,6 @@ C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollec
 C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\CardCollector.Net6\obj\Debug\net6.0\Collection.pdb
 C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\CardCollector.Net6\obj\Debug\net6.0\Collection.genruntimeconfig.cache
 C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\CardCollector.Net6\obj\Debug\net6.0\ref\Collection.dll
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\CardCollector.Net6\bin\Debug\net6.0\EasyNetQ.dll
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\CardCollector.Net6\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\CardCollector.Net6\bin\Debug\net6.0\System.Threading.Channels.dll

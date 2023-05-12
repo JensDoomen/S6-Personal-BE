@@ -1,0 +1,12 @@
+{
+  "profiles": {
+    "MergeTest": {
+      "commandName": "Project",
+      "launchBrowser": true,
+      "environmentVariables": {
+        "ASPNETCORE_ENVIRONMENT": "Development"
+      },
+      "applicationUrl": "https://localhost:16226;http://localhost:16227"
+    }
+  }
+}

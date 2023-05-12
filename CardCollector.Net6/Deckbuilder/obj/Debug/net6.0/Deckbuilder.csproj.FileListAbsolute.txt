@@ -30,3 +30,6 @@ C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollec
 C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\Deckbuilder\obj\Debug\net6.0\Deckbuilder.pdb
 C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\Deckbuilder\obj\Debug\net6.0\Deckbuilder.genruntimeconfig.cache
 C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\Deckbuilder\obj\Debug\net6.0\ref\Deckbuilder.dll
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\Deckbuilder\bin\Debug\net6.0\EasyNetQ.dll
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\Deckbuilder\bin\Debug\net6.0\RabbitMQ.Client.dll
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\Deckbuilder\bin\Debug\net6.0\System.Threading.Channels.dll
