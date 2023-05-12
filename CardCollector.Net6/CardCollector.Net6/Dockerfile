@@ -18,5 +18,6 @@ RUN dotnet publish "Collection.csproj" -c Release -o /app/publish /p:UseAppHost=
 
 FROM base AS final
 WORKDIR /app
+ENV ASPNETCORE_URLS=http://+:5169
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "Collection.dll"]
