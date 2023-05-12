@@ -18,5 +18,6 @@ RUN dotnet publish "OcelotAPIGateway.csproj" -c Release -o /app/publish /p:UseAp
 
 FROM base AS final
 WORKDIR /app
+ENV ASPNETCORE_URLS=http://+:5184
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "OcelotAPIGateway.dll"]
