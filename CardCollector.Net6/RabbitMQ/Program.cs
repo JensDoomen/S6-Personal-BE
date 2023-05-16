@@ -14,7 +14,8 @@ builder.Services.AddSwaggerGen();
 
 
 //RabbitMQ (niet heel cyber)
-string rabbitmqConnectionString = "host=host.docker.internal;username=guest;password=guest";
+//string rabbitmqConnectionString = "host=host.docker.internal;username=guest;password=guest";
+string rabbitmqConnectionString = "amqps://rppbqhta:VGBH8m_LzZAYttQizzAVD2xHnswQIgbs@rattlesnake.rmq.cloudamqp.com/rppbqhta";
 
 var bus = RabbitHutch.CreateBus(rabbitmqConnectionString);
 

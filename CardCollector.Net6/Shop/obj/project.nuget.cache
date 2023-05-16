@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "PHiQMPK+0/fwQBAiyXJVm+OUN7WzUYrAXVGptMu1r5s7ecxT85UYbecmAEGthx7eVELkWvHD2kTqxPfxdfqKDg==",
+  "dgSpecHash": "NIkyqkK8XHWGtFZsf0bpQKsPguYVntUcRHZm8XX4UEjk/DVRuz4lIujmsws0Msu7iu9aBXamyZhRLNGG5JnXiQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gebruiker\\Documents\\FHICT\\Semester 6\\Personal\\S6-Personal-BE\\CardCollector.Net6\\Shop\\Shop.csproj",
   "expectedPackageFiles": [
@@ -8,6 +8,7 @@
     "C:\\Users\\Gebruiker\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\microsoft.visualstudio.azure.containers.tools.targets\\1.17.2\\microsoft.visualstudio.azure.containers.tools.targets.1.17.2.nupkg.sha512",
+    "C:\\Users\\Gebruiker\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\rabbitmq.client\\6.5.0\\rabbitmq.client.6.5.0.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",

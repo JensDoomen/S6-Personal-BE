@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "5hyiy5YSi2huaYXPHYyMRiNxHtg8TBX8LDjEd6Dyy7eBlOLel5jj9w3z15eW6DQ+5h/kZ/3MlsLaR46xKnrjgg==",
+  "dgSpecHash": "zQ6iibsIZCDn5+T2+e5Od2YVm9Mvd9/rK0TsaCecjeVrKfObiQVgsqmVylzmXGEhfxEiZjUrQlO3TZo0KXS2WA==",
   "success": true,
   "projectFilePath": "C:\\Users\\Gebruiker\\Documents\\FHICT\\Semester 6\\Personal\\S6-Personal-BE\\CardCollector.Net6\\CardCollector.Net6\\Collection.csproj",
   "expectedPackageFiles": [
@@ -46,6 +46,7 @@
     "C:\\Users\\Gebruiker\\.nuget\\packages\\microsoft.win32.registry\\5.0.0\\microsoft.win32.registry.5.0.0.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\microsoft.win32.systemevents\\5.0.0\\microsoft.win32.systemevents.5.0.0.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\Gebruiker\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\rabbitmq.client\\6.5.0\\rabbitmq.client.6.5.0.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\swashbuckle.aspnetcore\\6.2.3\\swashbuckle.aspnetcore.6.2.3.nupkg.sha512",
     "C:\\Users\\Gebruiker\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\6.2.3\\swashbuckle.aspnetcore.swagger.6.2.3.nupkg.sha512",
