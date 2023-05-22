@@ -73,7 +73,7 @@ jobs:
       - name: Run JMeter Tests
         uses: ./
         with:
-         test-plan-path: .github/workflows/View Result Tree.jmx
+         test-plan-path: Testplans/View Result Tree.jmx
          args: ""
 
     
