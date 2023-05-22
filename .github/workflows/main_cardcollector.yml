@@ -25,7 +25,9 @@ jobs:
           include-prerelease: true
 
       - name: Build with dotnet
-        run: dotnet build --configuration Release
+        run: |
+         cd CardCollector.Net6 
+         dotnet build --configuration Release
         
    
 
