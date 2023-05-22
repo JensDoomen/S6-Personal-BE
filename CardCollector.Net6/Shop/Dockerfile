@@ -18,5 +18,6 @@ RUN dotnet publish "Shop.csproj" -c Release -o /app/publish /p:UseAppHost=false
 
 FROM base AS final
 WORKDIR /app
+ENV ASPNETCORE_URLS=http://+:5063
 COPY --from=publish /app/publish .
 ENTRYPOINT ["dotnet", "Shop.dll"]
