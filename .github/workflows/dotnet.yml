@@ -65,6 +65,7 @@ jobs:
 
   docker-collection:
      runs-on: ubuntu-latest
+     needs: Collection-build
      defaults:
        run:
          working-directory: 'CardCollector.Net6'
@@ -92,6 +93,7 @@ jobs:
            
   docker-deckbuilder:
      runs-on: ubuntu-latest
+     needs: Deckbuilder-build
      defaults:
        run:
          working-directory: 'Deckbuilder'
@@ -119,6 +121,7 @@ jobs:
 
   docker-merge:
      runs-on: ubuntu-latest
+     needs: Merge-build
      defaults:
        run:
          working-directory: 'Merge'
@@ -146,6 +149,7 @@ jobs:
        
   docker-Shop:
      runs-on: ubuntu-latest
+     needs: Shop-build
      defaults:
        run:
          working-directory: 'Shop'
