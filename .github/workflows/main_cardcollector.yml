@@ -66,6 +66,7 @@ jobs:
           
   jmeter-test:
     runs-on: ubuntu-latest
+    needs: deploy
     name: JMeter Test Execution
     steps:
       - name: Checkout
