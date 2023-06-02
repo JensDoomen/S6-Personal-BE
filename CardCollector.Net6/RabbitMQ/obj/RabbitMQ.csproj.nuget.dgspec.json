@@ -45,9 +45,17 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "AntiXSS": {
+              "target": "Package",
+              "version": "[4.3.0, )"
+            },
             "EasyNetQ": {
               "target": "Package",
               "version": "[7.5.0, )"
+            },
+            "HtmlSanitizer": {
+              "target": "Package",
+              "version": "[8.0.645, )"
             },
             "Newtonsoft.Json": {
               "target": "Package",
