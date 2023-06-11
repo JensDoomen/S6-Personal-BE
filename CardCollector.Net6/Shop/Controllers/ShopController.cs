@@ -13,6 +13,7 @@ namespace Shop.Controllers
     {
         private readonly ILogger<WeatherForecastController> _logger;
 
+
         public ShopController(ILogger<WeatherForecastController> logger)
         {
             _logger = logger;
@@ -55,6 +56,9 @@ namespace Shop.Controllers
             var body = Encoding.UTF8.GetBytes(json);
             channel.BasicPublish(exchangeName, routingKey, null, body);
             _logger.LogInformation($"Message published to {queueName}");
+
+            //Easy logger
+            //EasyLogger.LogInformation(logger: this._logger, message: "Message pushed!");
 
 
 
