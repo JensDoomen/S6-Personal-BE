@@ -22,52 +22,63 @@ namespace Shop.Controllers
         [HttpGet]
         public IActionResult Get()
         {
-            Card card = new Card();
-            card.Id = Guid.NewGuid().ToString();
-            card.Name = " testt";
-
-            ConnectionFactory factory = new();
-            factory.Uri = new Uri("amqp://rppbqhta:VGBH8m_LzZAYttQizzAVD2xHnswQIgbs@rattlesnake.rmq.cloudamqp.com/rppbqhta");
-            factory.ClientProvidedName = "ShopService";
+            try
+            {
 
 
+                Card card = new Card();
+                card.Id = Guid.NewGuid().ToString();
+                card.Name = " testt";
 
-            IConnection cnn = factory.CreateConnection();
-
-
-
-            IModel channel = cnn.CreateModel();
+                ConnectionFactory factory = new();
+                factory.Uri = new Uri("amqps://iwnkshce:FdKJS3LsgczWvl1a7Nc4ID-CT7h8xFbk@rattlesnake.rmq.cloudamqp.com/iwnkshce");
+                factory.ClientProvidedName = "ShopService";
 
 
 
-            string exchangeName = "CardCollector";
-            string routingKey = "card-routing-key";
-            string queueName = "CardQueue";
+                IConnection cnn = factory.CreateConnection();
 
 
 
-            channel.ExchangeDeclare(exchangeName, ExchangeType.Direct);
-            channel.QueueDeclare(queueName, true, false, false, null);
-            channel.QueueBind(queueName, exchangeName, routingKey, null);
+                IModel channel = cnn.CreateModel();
 
 
 
-            var json = JsonConvert.SerializeObject(card);
-            var body = Encoding.UTF8.GetBytes(json);
-            channel.BasicPublish(exchangeName, routingKey, null, body);
-            _logger.LogInformation($"Message published to {queueName}");
-
-            //Easy logger
-            //EasyLogger.LogInformation(logger: this._logger, message: "Message pushed!");
+                string exchangeName = "CardCollector";
+                string routingKey = "card-routing-key";
+                string queueName = "CardQueue";
 
 
 
-            channel.Close();
-            cnn.Close();
+                channel.ExchangeDeclare(exchangeName, ExchangeType.Direct);
+                channel.QueueDeclare(queueName, true, false, false, null);
+                channel.QueueBind(queueName, exchangeName, routingKey, null);
 
 
 
-            return Ok(card);
+                var json = JsonConvert.SerializeObject(card);
+                var body = Encoding.UTF8.GetBytes(json);
+                channel.BasicPublish(exchangeName, routingKey, null, body);
+                _logger.LogInformation($"Message published to {queueName}");
+
+                //Easy logger
+                //EasyLogger.LogInformation(logger: this._logger, message: "Message pushed!");
+
+
+
+                channel.Close();
+                cnn.Close();
+
+
+
+                return Ok(card);
+            }
+            catch (Exception ex)
+            {
+                _logger.LogError("Application encountered an error while sending a message");
+
+                return((IActionResult)ex);
+            }
         }
 
 

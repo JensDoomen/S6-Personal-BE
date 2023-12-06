@@ -46,3 +46,4 @@ C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollec
 C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\Merge\bin\Debug\net6.0\Serilog.Sinks.Async.dll
 C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\Merge\bin\Debug\net6.0\Serilog.Sinks.File.dll
 C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\Merge\bin\Debug\net6.0\Serilog.Sinks.RollingFile.dll
+C:\Users\Gebruiker\Documents\FHICT\Semester 6\Personal\S6-Personal-BE\CardCollector.Net6\Merge\bin\Debug\net6.0\Newtonsoft.Json.dll

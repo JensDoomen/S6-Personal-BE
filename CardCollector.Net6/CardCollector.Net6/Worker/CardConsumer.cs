@@ -21,7 +21,7 @@ namespace Collection.Worker
         public CardConsumer(ILogger<CardConsumer> logger, IServiceScopeFactory serviceScopeFactory)
         {
             ConnectionFactory factory = new();
-            factory.Uri = new Uri("amqp://rppbqhta:VGBH8m_LzZAYttQizzAVD2xHnswQIgbs@rattlesnake.rmq.cloudamqp.com/rppbqhta");
+            factory.Uri = new Uri("amqps://iwnkshce:FdKJS3LsgczWvl1a7Nc4ID-CT7h8xFbk@rattlesnake.rmq.cloudamqp.com/iwnkshce");
             factory.ClientProvidedName = "CollectionService";
 
             IConnection cnn = factory.CreateConnection();
